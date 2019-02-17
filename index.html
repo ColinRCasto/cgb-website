@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>CGB</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto|Major+Mono+Display" rel="stylesheet">
+<svg display="none">
+  <symbol id="icon" viewbox="0 0 100 100" >    
+    <path fill="#4717F6" stroke="#4717F6" stroke-width="1"
+      d="M 75,85
+         a 10 6 0 1 0 -50 0
+         q  -20,-30 -5,-50
+         l 10,-2
+         v 2
+         h 2
+         v 15
+         h 3
+         v -15
+         l 2,-5
+         v -6
+         l 3,-10
+         l 1,-10
+         l 1,10
+         l 3,10
+         v 6
+         l 2,5
+         v 15
+         h 4
+         v -30
+         h 6
+         v 2
+         h 4
+         v 2
+         h 4
+         v -2
+         h 4
+         v -2
+         h 6
+         q  20,30 0,65
+         z
+         
+         " />
+    
+     <path  mask='url(#bus-cutout)' fill="#A239CA" stroke="#A239CA" stroke-width="1" 
+      d="M 72,86
+         a 10,6 0 1 0 -44,0
+         q 0,2 2,5
+         q 2,2 5,1
+         a 0.9,1 0 0 1 10,0
+         l 9,0
+         a 0.9,1 0 0 1 10,0
+         q 4,2 8,-6
+         z"/>
+ 
+    <circle cx="40" cy="91.5" r="4" fill="#E7DFDD"/>
+    <circle cx="59" cy="91.5" r="4" fill="#E7DFDD"/>
+</svg>
+
+
+<div class="stars large"></div>
+  <div class="stars medium"></div>
+<div class="title">
+  <span class="marquee" style="color:#A239CA;">Columbus </span>
+  <span class="marquee" style="color:#4717F6;">Glitchbus</span>
+</div>
+<div id='icon-bar'>
+  <div class='icon'>
+    <svg class="logo">
+      <mask id="bus-cutout" x="0" y="0" width="100" height="100">
+        <rect x="0" y="0" width="100" height="100" fill="white"/>
+        <rect x="17" y="77" width="20" height="7" fill="black"/>
+        <rect x="42" y="77" width="5" height="5" fill="black"/>
+        <rect x="50" y="77" width="5" height="5" fill="black"/>
+        <rect x="58" y="77" width="5" height="5" fill="black"/>
+      </mask>
+      <use xlink:href="#icon" />
+    </svg>
+    <div class='container'>
+      <div class="scroll-button" onclick="scrollToAnchor('home')">h0Me</div>
+      <div class="scroll-button" onclick="scrollToAnchor('contact')">c0ntAct</div>
+      <div class="scroll-button" onclick="scrollToAnchor('about')">Ab0ut</div>
+      <div class="scroll-button" onclick="scrollToAnchor('location')">l0cAti0n</div>
+      <div class="scroll-button" onclick="scrollToAnchor('submit')">subMit</div>
+      <div class="scroll-button" onclick="scrollToAnchor('schedule')">schedule</div>
+      <div class="scroll-button" onclick="scrollToAnchor('attending')">Attending</div>
+    </div>
+  </div>
+</div>
+<div id="home" class="section">
+  <div>
+    <div class="section-header">
+      <div class="bar"></div>
+      <div>h0me</div>
+        <div class="bar"></div>
+    </div>
+  </div>
+</div>
+<div id="contact" class="section">
+  <div>
+    <div class="section-header">
+      <div class="bar"></div>
+      <div>c0ntAct</div>
+      <div class="bar"></div>
+    </div>
+    <div class="section-content">
+    </div>
+  </div>
+</div>
+  
+<div id="about" class="section">
+<div>
+  <div class="section-header">
+    <div class="bar"></div>
+      <div>Ab0ut</div>
+      <div class="bar"></div>
+    </div>
+  <div class="section-content">
+  <p class="text-block">The Columbus Glitchbus is a speedrun marathon hosted live on Twitch.tv, showcasing runners from all around Ohio</p>
+  </div>
+  </div>
+</div>
+  
+<div id="location" class="section">
+<div>
+  <div class="section-header">
+    <div class="bar"></div>
+      <div>l0cAti0n</div>
+      <div class="bar"></div>
+    </div>
+  <div class="section-content">
+    <p class="text-block">yooooo</p>
+  </div>
+  </div>
+</div>
+<div id="submit" class="section">
+<div>
+  <div class="section-header">
+    <div class="bar"></div>
+      <div>subMit</div>
+      <div class="bar"></div>
+    </div>
+    <div class="section-content">
+      <p class="text-block">yooooo</p>
+    </div>
+  </div>
+</div>
+  <div id="schedule" class="section">
+  <div>
+    <div class="section-header">
+      <div class="bar"></div>
+      <div>schedule</div>
+        <div class="bar"></div>
+    </div>
+    <div class="section-content">
+    </div>
+  </div>
+</div>
+  
+  <div id="attending" class="section">
+  <div>
+    <div class="section-header">
+      <div class="bar"></div>
+      <div>Attending</div>
+        <div class="bar"></div>
+    </div>
+    <div class="section-content">
+    </div>
+  </div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
