@@ -22,6 +22,14 @@ div{
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
+  text-shadow: 0 0 5px $stark, 0 0 10px $jewel, 0 0 15px $fuschia, 0 0 20px $stark, 0 0 35px $jewel, 0 0 40px $fuschia;
+}
+.section-content{
+  display:flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  height: 900px;
+  
 }
 .bar{
   width: 1em;
@@ -29,6 +37,7 @@ div{
   background-color: $stark;
   flex-grow: 1;
   margin: 1em;
+  box-shadow: 0 0 5px $jewel, 0 0 10px $fuschia, 0 0 15px $jewel, 0 0 20px $fuschia;
 }
 .scroll-button{
   background: $stark;
@@ -106,13 +115,9 @@ div{
   pointer-events: none;
 }
 
-.bar{
-  animation: bar-pulse 1s ease-in-out infinite alternate;
-}
 
-.section-header {
-  animation: letter-pulse 1s ease-in-out infinite alternate;
-}
+
+
 
 .marquee{
   filter: brightness(1) blur(1px);
@@ -196,32 +201,6 @@ $bxshadow-medium: box-shadow(2000);
 }
 
 
-@keyframes letter-pulse {
-  from {
-    text-shadow: 0 0 10px $stark, 0 0 20px $jewel, 0 0 30px $fuschia, 0 0 40px $stark, 0 0 70px $jewel, 0 0 80px $fuschia;
-  }
-  to {
-    text-shadow: 0 0 5px $stark, 0 0 10px $jewel, 0 0 15px $fuschia, 0 0 20px $stark, 0 0 35px $jewel, 0 0 40px $fuschia;
-  }
-}
-
-@keyframes bar-pulse {
-  from {
-    box-shadow: 0 0 10px $jewel, 0 0 20px $fuschia, 0 0 30px $jewel, 0 0 40px $fuschia;
-  }
-  to {
-    box-shadow: 0 0 5px $jewel, 0 0 10px $fuschia, 0 0 15px $jewel, 0 0 20px $fuschia;
-  }
-}
-
-@keyframes blur {
-  0%,20%,40%,60%,80%,100%{
-    filter: brightness(2) blur(1.6px);
-  }
-  10%,30%,50%,70%,90%{
-    filter: brightness(2) blur(1.6px);
-  }
-}
 
 
 /*
