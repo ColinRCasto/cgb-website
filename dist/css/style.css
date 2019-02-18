@@ -112,14 +112,6 @@ div {
   pointer-events: none;
 }
 
-.bar {
-  animation: bar-pulse 1s ease-in-out infinite alternate;
-}
-
-.section-header {
-  animation: letter-pulse 1s ease-in-out infinite alternate;
-}
-
 .marquee {
   filter: brightness(1) blur(1px);
 }
