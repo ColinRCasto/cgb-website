@@ -16,6 +16,7 @@ div {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
+  text-shadow: 0 0 5px #E7DFDD, 0 0 10px #4717F6, 0 0 15px #A239CA, 0 0 20px #E7DFDD, 0 0 35px #4717F6, 0 0 40px #A239CA;
 }
 
 .section-content{
@@ -31,6 +32,7 @@ div {
   background-color: #E7DFDD;
   flex-grow: 1;
   margin: 1em;
+  box-shadow: 0 0 5px #4717F6, 0 0 10px #A239CA, 0 0 15px #4717F6, 0 0 20px #A239CA;
 }
 
 .scroll-button {
