@@ -7,17 +7,7 @@ div {
   font-family: "Major Mono Display", monospace;
 }
 
-.section-header {
-  font-size: 40px;
-  text-align: center;
-  color: #E7DFDD;
-  font-weight: bold;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  text-shadow: 0 0 5px #E7DFDD, 0 0 10px #4717F6, 0 0 15px #A239CA, 0 0 20px #E7DFDD, 0 0 35px #4717F6, 0 0 40px #A239CA;
-}
+
 
 .section-content{
   display:flex;
@@ -107,6 +97,19 @@ div {
 
 .section {
   height: 100vh;
+  font-size: 2em;
+}
+
+.section-header {
+  font-size: 40px;
+  text-align: center;
+  color: #E7DFDD;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-shadow: 0 0 5px #E7DFDD, 0 0 10px #4717F6, 0 0 15px #A239CA, 0 0 20px #E7DFDD, 0 0 35px #4717F6, 0 0 40px #A239CA;
 }
 
 .bar, .section-header {
