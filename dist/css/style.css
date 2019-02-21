@@ -106,7 +106,7 @@ div {
 }
 
 .section {
-  height: 1000px;
+  height: 100vh;
 }
 
 .bar, .section-header {
